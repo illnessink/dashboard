@@ -1,38 +1,48 @@
-.App {
-  text-align: center;
+p {
+  font-size: 12px;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+h4 {
+  font-size: 18px;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+.infoBoxSec {
   display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+  justify-content: start;
 }
 
-.App-link {
-  color: #61dafb;
+.infoBox {
+  width: 150px;
+  height: 200px;
+  background-color: rgb(205, 205, 205);
+  padding: 5px;
+  margin: 10px;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.visitorsDiv {
+  display: inline-flex;
+  justify-content: start;
+  background-color: rgb(205, 205, 205);
+  width: 513px;
+  height: 300px;
+  padding: 5px;
+  margin-left: 10px;
+}
+
+.greyBox {
+  background-color: rgb(174, 174, 174);
+  width: 400px;
+  height: 170px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.sidebarDiv {
+  float: left;
+  margin-left: 150px;
+  margin-top: 10px;
+  height: 520px;
+  width: 150px;
+  background-color: rgb(205, 205, 205);
+  padding: 5px;
 }
