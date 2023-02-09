@@ -1,6 +1,6 @@
 function Info(props) {
     return (
-        <div>
+        <div className="infoBox">
             <p>{props.whichTitle}</p>
             <h4>{props.statOne}</h4>
             <h4>{props.statTwo}</h4>
