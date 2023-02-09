@@ -22,6 +22,7 @@ h4 {
 .visitorsDiv {
   display: inline-flex;
   justify-content: start;
+  flex-direction: column;
   background-color: rgb(205, 205, 205);
   width: 513px;
   height: 300px;
@@ -29,12 +30,19 @@ h4 {
   margin-left: 10px;
 }
 
+.visitorsDiv > p, .visitorsDiv > h4 {
+  margin: 10px
+}
+
 .greyBox {
+  position: relative;
   background-color: rgb(174, 174, 174);
   width: 400px;
-  height: 170px;
+  height: 200px;
+  margin-top: 30px;
   margin-left: auto;
   margin-right: auto;
+  margin-bottom: 20px;;
 }
 
 .sidebarDiv {
